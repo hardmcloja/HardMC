@@ -4,8 +4,8 @@ const CONFIG = {
   ip: 'hardmc.mcsh.io',
   port: 25565,
   name: 'HARDMC',
-  discord: 'https://discord.gg/pbEn6KmGM4',
-  discordCode: 'pbEn6KmGM4',
+  discord: 'https://discord.gg/ynYtudrrmP',
+  discordCode: 'ynYtudrrmP',
 };
 
 const SERVER_ADDRESS = `${CONFIG.ip}:${CONFIG.port}`;
