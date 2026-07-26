@@ -240,8 +240,8 @@ function initStoreTabs() {
 }
 
 async function renderStoreCards() {
-    const kits = await fetch("../../data/storeKits.json").then(r => r.json());
-    const tags = await fetch("../../data/storeTags.json").then(r => r.json());
+    const kits = await fetch("data/storeKits.json").then(r => r.json());
+    const tags = await fetch("data/storeTags.json").then(r => r.json());
 
     STORE_DATA.kits = kits;
     STORE_DATA.tags = tags;
