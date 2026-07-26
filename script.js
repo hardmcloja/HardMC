@@ -327,7 +327,7 @@ function initGalleryButtons() {
 }
 
 let galleryState = { type: 'kits', index: 0 };
-
+// FEITO POR ISAAC 
 function openGallery(type, index) {
   const items = STORE_DATA[type] || [];
   const item = items[index];
