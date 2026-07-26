@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Vip Hydra",
+    "price": "R$ 7,99",
+    "logo": "assets/img/taghydra.png",
+    "logoWidth": 150,
+    "logoHeight": 150,
+    "image": "assets/img/taghydrinha.png",
+    "description": "Compre a Tag Vip Hydra para ganhar o Kit Hydra e vários comandos extras!",
+    "gallery": [],
+    "color": "#00d5ff"
+  },
+  {
+    "name": "Vip Master",
+    "price": "R$ 12,99",
+    "logo": "assets/img/vipmaster.png",
+    "logoWidth": 160,
+    "logoHeight": 160,
+    "image": "assets/img/vipmastertag.png",
+    "description": "Compre a Tag Vip Master para ganhar o Kit Master e vários comandos extras! ",
+    "gallery": [],
+    "color": "#ffce47"
+  },
+  {
+    "name": "Kit Ultra",
+    "price": "R$ 17,99",
+    "logo": "assets/img/vipultra.png",
+    "logoWidth": 160,
+    "logoHeight": 160,
+    "image": "assets/img/vipultratag.png",
+    "description": "Compre a Tag Vip Ultra para ganhar o Kit Ultra e vários comandos extras!",
+    "gallery": [],
+    "color": "#b388ff"
+  }
+]

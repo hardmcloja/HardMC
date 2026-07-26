@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Vip Hydra",
+    "price": "R$ 7,99",
+    "logo": "assets/img/logokit-viphydra.png",
+    "logoWidth": 160,
+    "logoHeight": 160,
+    "image": "assets/img/print1.png",
+    "description": "Compre o Vip Hydra para ganhar o Kit Hydra e vários comandos extras!\n\nKit: 2 de cada shulker\n\nBenefícios Vip:\n\nPegar spawners com toque suave\n\nLimite de 25 página em livros\n\nColorir textos em livros\n\nColorir textos em bigornas\n\nCompra rápida\n\nVenda rápida",
+    "gallery": [
+      "assets/img/print1.png",
+      "assets/img/print2.png",
+      "assets/img/print3.png"
+    ],
+    "color": "#0ad6ff"
+  },
+  {
+    "name": "Vip Master",
+    "price": "R$ 12,99",
+    "logo": "assets/img/vipmaster.png",
+    "logoWidth": 160,
+    "logoHeight": 160,
+    "image": "assets/img/print11.png",
+    "description": "Compre o Vip Master para ganhar o Kit Master e vários comandos extras!\n\nKit: 2 shulkers cada das 3 primeiras\n\nBenefícios:\nTodos do Vip Hydra\n+\nLimite de 50 página em livros",
+    "gallery": [
+      "assets/img/print11.png",
+      "assets/img/print12.png",
+      "assets/img/print13.png",
+      "assets/img/print14.png",
+      "assets/img/print15.png",
+      "assets/img/print16.png"
+    ],
+    "color": "#f9d300"
+  },
+  {
+    "name": "Kit Ultra",
+    "price": "R$ 17,99",
+    "logo": "assets/img/vipultra.png",
+    "logoWidth": 160,
+    "logoHeight": 160,
+    "image": "assets/img/print21.png",
+    "description": "Compre o Vip Ultra para ganhar o Kit Ultra e vários comandos extras!\nKit: 2 shulkers de cada, a de Totens são 4 shulkers inteiras, contém o acesso de 8 keys Ultra\nBenefícios:\nTodos do Vip Hydra e Vip Master\n+\nLimite de 100 página em livros\nVer velocímetro da elytra\nAbrir shulkers sem pôr no chão\nPegar spawners sem toque suave\nVer ultima posição em que morreu",
+    "gallery": [
+      "assets/img/print21.png",
+      "assets/img/print22.png",
+      "assets/img/print23.png"
+    ],
+    "color": "#6302b2"
+  }
+]

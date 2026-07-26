@@ -1,0 +1,45 @@
+/* HARDMC ￾ Diamond Armor Character */
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" class="minecraft-character">
+  <defs>
+    <linearGradient id="armor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5DADE2"/>
+      <stop offset="50%" style="stop-color:#2E86C1"/>
+      <stop offset="100%" style="stop-color:#1A5276"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C68642"/>
+      <stop offset="100%" style="stop-color:#8B5E3C"/>
+    </linearGradient>
+    <filter id="charGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Glow backdrop -->
+  <ellipse cx="150" cy="350" rx="80" ry="15" fill="rgba(79,195,247,0.2)"/>
+  <!-- Legs -->
+  <rect x="110" y="280" width="30" height="60" fill="url(#armor)" rx="2"/>
+  <rect x="160" y="280" width="30" height="60" fill="url(#armor)" rx="2"/>
+  <!-- Body -->
+  <rect x="105" y="180" width="90" height="100" fill="url(#armor)" rx="4"/>
+  <rect x="115" y="190" width="70" height="15" fill="#85C1E9" opacity="0.5"/>
+  <!-- Arms -->
+  <rect x="70" y="185" width="30" height="80" fill="url(#armor)" rx="2" transform="rotate(-15 85 225)"/>
+  <rect x="200" y="175" width="30" height="90" fill="url(#armor)" rx="2" transform="rotate(25 215 220)"/>
+  <!-- Sword -->
+  <g filter="url(#charGlow)" transform="rotate(30 230 180)">
+    <rect x="225" y="80" width="8" height="100" fill="#AED6F1" rx="1"/>
+    <rect x="218" y="170" width="22" height="8" fill="#5DADE2"/>
+    <rect x="226" y="178" width="6" height="20" fill="#8B6914"/>
+  </g>
+  <!-- Head -->
+  <rect x="120" y="100" width="60" height="60" fill="url(#skin)" rx="2"/>
+  <!-- Helmet -->
+  <rect x="115" y="95" width="70" height="35" fill="url(#armor)" rx="3"/>
+  <rect x="125" y="130" width="50" height="15" fill="url(#armor)"/>
+  <!-- Eyes -->
+  <rect x="133" y="118" width="10" height="6" fill="#2C1810"/>
+  <rect x="157" y="118" width="10" height="6" fill="#2C1810"/>
+  <!-- Helmet visor glow -->
+  <rect x="125" y="105" width="50" height="8" fill="#85C1E9" opacity="0.4"/>
+</svg>
